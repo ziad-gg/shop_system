@@ -122,3 +122,5 @@ client.on(Events.InteractionCreate, interaction => {
     const cmd = require('./commands/'.concat(interaction.commandName))
     cmd(interaction, client)
 })
+
+client.login("MTA1MTA2MDc2ODU0MTUyMzk4OA.Gv4_-Z.9GjEpy-CUJgTWYw7D5Z5AJvLPU8JiaJgQz9cGk")
