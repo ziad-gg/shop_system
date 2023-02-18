@@ -114,7 +114,7 @@ client.once(Events.ClientReady, async c => {
             await channel.save();
            }
         });
-    }, 1 * 6000)
+    }, 5 * 60000)
 });
 
 client.on(Events.InteractionCreate, interaction => {
